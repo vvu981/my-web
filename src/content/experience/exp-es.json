@@ -1,0 +1,46 @@
+[
+  {
+    "id": "academia-destaca",
+    "company": "Academia Destaca",
+    "role": "Profesor de academia",
+    "period": "Febrero 2023 - Junio 2023",
+    "startDate": "2023-02",
+    "endDate": "2023-06",
+    "summary": "Docencia orientada a estudiantes de instituto, adaptando la explicación de conceptos complejos al ritmo y necesidades de cada alumno.",
+    "highlights": [
+      "Comunicación de conceptos complejos de forma sencilla y personalizada.",
+      "Resolución de problemas educativos mediante nuevas perspectivas cuando un metodo no funcionaba."
+    ],
+    "stack": ["Docencia", "Comunicación", "Resolución de problemas", "Adaptacion pedagogica"]
+  },
+  {
+    "id": "academia-format",
+    "company": "Academia Forma-T",
+    "role": "Profesor de academia",
+    "period": "Octubre 2024 - Junio 2025",
+    "startDate": "2024-10",
+    "endDate": "2025-06",
+    "summary": "Gestión y acompañamiento de grupos con distintas edades en etapa de instituto para optimizar tiempos, motivación y cumplimiento de objetivos.",
+    "highlights": [
+      "Organización de alumnos de distintas edades para optimizar el tiempo de explicaciones.",
+      "Aplicación de creatividad didactica para conectar objetivos academicos con la vida cotidiana.",
+      "Fomento de motivación y habitos para alcanzar objetivos de aprendizaje."
+    ],
+    "stack": ["Docencia", "Gestión de grupos", "Motivación", "Hábitos de estudio"]
+  },
+  {
+    "id": "noa-estudio-internship",
+    "company": "NOA Estudio",
+    "role": "Prácticas como desarrollador full-stack",
+    "period": "Noviembre 2025 - Enero 2026",
+    "startDate": "2025-11",
+    "endDate": "2026-01",
+    "summary": "Diseño e implementación de soluciones full-stack y aplicaciones híbridas, combinando rendimiento frontend, arquitectura desacoplada y entrega agile.",
+    "highlights": [
+      "Implementacion de solución full-stack (React/Node.js) optimizando consumo de APIs REST para mejorar reactividad, fidelidad visual y tiempos de carga del frontend.",
+      "Diseño de arquitectura de contenidos en Strapi para desacoplar gestion de datos y presentacion, permitiendo autonomia del equipo de contenido y asegurando integridad de la información.",
+      "Direccion de la creacion de aplicacion hibrida (Ionic/React) en flujo de integracion continua, entregando funciones esenciales en plazos reducidos con coordinacion agile."
+    ],
+    "stack": ["React", "Node.js", "REST APIs", "Strapi", "Ionic", "Integracion continua", "Agile"]
+  }
+]
