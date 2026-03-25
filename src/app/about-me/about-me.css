@@ -1,0 +1,35 @@
+.about-shell {
+  padding-top: 40px;
+  padding-bottom: 88px;
+  background: linear-gradient(180deg, rgba(63,255,210,0.06) 0%, #03051a 100%);
+  background-repeat: no-repeat;
+}
+
+.about-page .hero-header {
+  padding-bottom: clamp(18px, 3.5vw, 36px);
+}
+
+.about-container {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(20px, 2.2vw, 28px);
+  margin-bottom: 18px;
+  font-weight: 800;
+}
+
+.about-body {
+  color: var(--muted);
+  font-size: 16.5px;
+  line-height: 1.9;
+}
+
+.about-body p { margin-bottom: 14px; }
+
+@media (max-width: 780px) {
+  .about-shell { padding-top: 28px; padding-bottom: 56px; }
+  .about-body { font-size: 15.5px; }
+}

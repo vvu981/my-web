@@ -1,0 +1,46 @@
+[
+  {
+    "id": "academia-destaca",
+    "company": "Destaca Academy",
+    "role": "Academy teacher",
+    "period": "February 2023 - June 2023",
+    "startDate": "2023-02",
+    "endDate": "2023-06",
+    "summary": "Teaching focused on students, adapting complex concepts to each learner pace and context.",
+    "highlights": [
+      "Explained complex concepts in a clear, student-centered way.",
+      "Solved learning bottlenecks by creating alternative teaching approaches when a method did not work."
+    ],
+    "stack": ["Teaching", "Communication", "Problem solving", "Pedagogical adaptation"]
+  },
+  {
+    "id": "academia-format",
+    "company": "Forma-T Academy",
+    "role": "Academy teacher",
+    "period": "October 2024 - June 2025",
+    "startDate": "2024-10",
+    "endDate": "2025-06",
+    "summary": "Managed and guided mixed-age high school groups to optimize explanation time, motivation, and goal achievement.",
+    "highlights": [
+      "Organized students of different ages to optimize explanation time.",
+      "Applied creative teaching strategies to connect academic goals with everyday life.",
+      "Strengthened motivation and study habits to meet learning goals."
+    ],
+    "stack": ["Teaching", "Group management", "Motivation", "Study habits"]
+  },
+  {
+    "id": "noa-estudio-internship",
+    "company": "NOA Estudio",
+    "role": "Full-stack developer intern",
+    "period": "November 2025 - January 2026",
+    "startDate": "2025-11",
+    "endDate": "2026-01",
+    "summary": "Designed and implemented full-stack and hybrid app solutions, combining frontend performance, decoupled architecture, and agile delivery.",
+    "highlights": [
+      "Implemented a full-stack solution (React/Node.js) and optimized REST API usage, achieving high UI responsiveness, visual fidelity, and reduced frontend loading times.",
+      "Designed content architecture in Strapi to decouple data management from presentation logic, enabling full autonomy for the content team while preserving data integrity.",
+      "Led the creation of a hybrid app (Ionic/React) in a continuous integration workflow, delivering essential features in short deadlines through precise agile coordination."
+    ],
+    "stack": ["React", "Node.js", "REST APIs", "Strapi", "Ionic", "Continuous integration", "Agile"]
+  }
+]

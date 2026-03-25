@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Dot/grid color */
+  --dot-color: rgba(0,200,120,0.10);
+
+  /* Shared theme tokens used across the app (also referenced by page.css) */
+  --bg:      #070711;
+  --surface: #0d0d1c;
+  --border:  rgba(255,255,255,0.055);
+  --accent:  #3fffd2;
+  --violet:  #8b7cff;
+  --text:    #dde4f0;
+  --muted:   #4e5a72;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background-color: var(--bg);
+  background-image: 
+    radial-gradient(circle, var(--dot-color) 2px, transparent 3px),
+    linear-gradient(0deg, rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 40px 40px, 40px 40px, 40px 40px;
+  background-position: 0 0, 0 0, 0 0;
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Subtle dot-grid background (shared) */
+.dot-bg {
+  background-color: var(--bg);
+  background-image: radial-gradient(circle, var(--dot-color) 2px, transparent 3px),
+                    linear-gradient(0deg, rgba(255,255,255,0.02) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 40px 40px, 40px 40px, 40px 40px;
+}
