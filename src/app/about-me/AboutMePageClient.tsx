@@ -1,6 +1,6 @@
 "use client";
 
-import { SiteHeader } from '../../components/SiteHeader';
+import { SiteHeader } from '../../components/header/SiteHeader';
 import ContentBlock from '../../components/ContentBlock';
 
 import { aboutMeDictionaries } from '../../i18n/about-me';

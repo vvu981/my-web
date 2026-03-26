@@ -2,9 +2,11 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import faviconCircle from '../app/favicon_circle.ico';
+import faviconCircle from '../../app/favicon_circle.ico';
+import './SiteHeader.css';
 // using favicon image instead of SVG icon
-import type { Language, PortfolioDictionary } from '../i18n/portfolio';
+import type { Language, PortfolioDictionary } from '../../i18n/portfolio';
+import { markContactScrollOnHomeFlag, scrollToContactSection } from '../../utils/contactNavigation';
 
 type HeaderCopy = Pick<
   PortfolioDictionary,
@@ -28,6 +30,16 @@ export function SiteHeader({
 }: Readonly<SiteHeaderProps>) {
   const handleLanguageChange = (langOption: Language) => {
     onLanguageChange(langOption);
+  };
+
+  const handleMobileContactClick = () => {
+    if (activeSection !== 'home') {
+      markContactScrollOnHomeFlag();
+      globalThis.location.assign('/');
+      return;
+    }
+
+    scrollToContactSection('end');
   };
 
   const aboutHref = '/about-me';
@@ -61,6 +73,10 @@ export function SiteHeader({
             </div>
           </div>
         </details>
+
+        <button type="button" className="nav-link contact-mobile-btn" onClick={handleMobileContactClick}>
+          {copy.nav.contact}
+        </button>
 
         <div className="lang-switcher" aria-label={copy.languageSwitcherLabel}>
           {availableLanguages.map((langOption) => (
