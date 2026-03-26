@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Let's discuss your technical challenge",
+    "subtitle": "Tell me what you are building and I will reply with a clear, realistic proposal focused on outcomes."
+  },
+  "form": {
+    "tag": "PROFESSIONAL CONTACT",
+    "fullNameLabel": "Full name",
+    "fullNamePlaceholder": "e.g. Victor Vallejo",
+    "emailLabel": "Professional email",
+    "emailPlaceholder": "you@company.com",
+    "challengeTypeLabel": "Technical challenge type",
+    "challengeTypePlaceholder": "Select an option",
+    "challengeTypes": [
+      { "value": "architecture", "label": "Architecture" },
+      { "value": "fullstack", "label": "Fullstack development" },
+      { "value": "audit", "label": "Audit" }
+    ],
+    "messageLabel": "Message",
+    "messagePlaceholder": "Describe your context, goals and current blockers.",
+    "submitLabel": "Send request",
+    "loadingLabel": "Sending...",
+    "successMessage": "Message sent successfully. I will get back to you soon.",
+    "errorMessage": "Could not send the form. Please try again in a few minutes.",
+    "validation": {
+      "requiredName": "Full name is required.",
+      "requiredEmail": "Professional email is required.",
+      "invalidEmail": "Enter a valid email address.",
+      "requiredChallengeType": "Select a technical challenge type.",
+      "requiredMessage": "Message cannot be empty."
+    }
+  }
+}

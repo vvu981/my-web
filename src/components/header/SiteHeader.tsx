@@ -6,7 +6,6 @@ import faviconCircle from '../../app/favicon_circle.ico';
 import './SiteHeader.css';
 // using favicon image instead of SVG icon
 import type { Language, PortfolioDictionary } from '../../i18n/portfolio';
-import { markContactScrollOnHomeFlag, scrollToContactSection } from '../../utils/contactNavigation';
 
 type HeaderCopy = Pick<
   PortfolioDictionary,
@@ -18,7 +17,7 @@ type SiteHeaderProps = {
   language: Language;
   availableLanguages: Language[];
   onLanguageChange: (language: Language) => void;
-  activeSection: 'home' | 'experience' | 'about';
+  activeSection: 'home' | 'experience' | 'about' | 'contact';
 };
 
 export function SiteHeader({
@@ -30,16 +29,6 @@ export function SiteHeader({
 }: Readonly<SiteHeaderProps>) {
   const handleLanguageChange = (langOption: Language) => {
     onLanguageChange(langOption);
-  };
-
-  const handleMobileContactClick = () => {
-    if (activeSection !== 'home') {
-      markContactScrollOnHomeFlag();
-      globalThis.location.assign('/');
-      return;
-    }
-
-    scrollToContactSection('end');
   };
 
   const aboutHref = '/about-me';
@@ -64,19 +53,9 @@ export function SiteHeader({
         <a href={aboutHref} className={`nav-link ${activeSection === 'about' ? 'active' : ''}`}>{copy.nav.aboutMe}</a>
         <Link href="/experience" className={`nav-link ${activeSection === 'experience' ? 'active' : ''}`}>{copy.nav.experience}</Link>
 
-        <details className="contact-menu">
-          <summary className="nav-link contact-trigger">{copy.nav.contact}</summary>
-          <div className="contact-dropdown">
-            <div className="contact-item">
-              <span className="contact-label">{copy.nav.emailLabel}</span>
-              <span className="contact-value">{copy.contact.email}</span>
-            </div>
-          </div>
-        </details>
-
-        <button type="button" className="nav-link contact-mobile-btn" onClick={handleMobileContactClick}>
+        <Link href="/contact" className={`nav-link ${activeSection === 'contact' ? 'active' : ''}`}>
           {copy.nav.contact}
-        </button>
+        </Link>
 
         <div className="lang-switcher" aria-label={copy.languageSwitcherLabel}>
           {availableLanguages.map((langOption) => (
