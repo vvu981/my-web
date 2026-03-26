@@ -1,0 +1,33 @@
+{
+  "page": {
+    "title": "Hablemos de tu reto técnico",
+    "subtitle": "Cuéntame qué estás construyendo y te respondo con una propuesta clara, realista y enfocada en resultados."
+  },
+  "form": {
+    "tag": "CONTACTO PROFESIONAL",
+    "fullNameLabel": "Nombre completo",
+    "fullNamePlaceholder": "Ej. Victor Vallejo",
+    "emailLabel": "Email profesional",
+    "emailPlaceholder": "tu@empresa.com",
+    "challengeTypeLabel": "Tipo de reto técnico",
+    "challengeTypePlaceholder": "Selecciona una opción",
+    "challengeTypes": [
+      { "value": "architecture", "label": "Arquitectura" },
+      { "value": "fullstack", "label": "Desarrollo Fullstack" },
+      { "value": "audit", "label": "Auditoría" }
+    ],
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Describe contexto, objetivo y bloqueos actuales.",
+    "submitLabel": "Enviar propuesta",
+    "loadingLabel": "Enviando...",
+    "successMessage": "Mensaje enviado correctamente. Te responderé pronto.",
+    "errorMessage": "No se pudo enviar el formulario. Inténtalo de nuevo en unos minutos.",
+    "validation": {
+      "requiredName": "El nombre es obligatorio.",
+      "requiredEmail": "El email profesional es obligatorio.",
+      "invalidEmail": "Introduce un email válido.",
+      "requiredChallengeType": "Selecciona el tipo de reto técnico.",
+      "requiredMessage": "El mensaje no puede estar vacío."
+    }
+  }
+}

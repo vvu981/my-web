@@ -65,7 +65,7 @@ type PortfolioOverrides = Omit<Partial<PortfolioDictionary>, 'hero' | 'valueProp
 // Objeto base con datos compartidos
 const shared: Partial<PortfolioDictionary> & { social: { github: string; linkedin: string } } = {
   brandName: 'Victor Vallejo',
-  contact: { email: 'vicvallejo2003@gmail.com' },
+  contact: { email: 'contact@victor-vallejo.me' },
   techStack: ['Next.js', 'React', 'Node.js', 'PostgreSQL', 'Docker', 'C#', 'REST APIs', 'Prisma', 'Java'],
   // Mantenemos tus strings originales
   social: { github: 'GitHub', linkedin: 'LinkedIn' },

@@ -6,7 +6,7 @@ type ContentBlockProps = {
   className?: string;
 };
 
-export function ContentBlock({ title, html, className }: ContentBlockProps) {
+export function ContentBlock({ title, html, className }: Readonly<ContentBlockProps>) {
   return (
     <div className={className}>
       {title && <h2 className="about-title">{title}</h2>}
