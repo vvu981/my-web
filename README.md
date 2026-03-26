@@ -19,16 +19,40 @@ La web incluye version en español e inglés, una sección de presentación pers
 - TypeScript
 - Tailwind CSS 4
 - react-icons
-- Zod
-- sanitize-html
-
-## Objetivo
-
-Este repositorio no busca ser solo una demo visual: esta pensado como una base profesional para evolucionar un portfolio escalable, con contenido validado y una estructura preparada para crecimiento.
 
 ## Contacto
 
 - Email: vicvallejo2003@gmail.com
 - LinkedIn: https://www.linkedin.com/in/v%C3%ADctor-vallejo-uroz/
 - GitHub: https://github.com/ViictorVa
+
+---
+
+# Portfolio Website - Victor Vallejo
+
+Personal portfolio developed to present my profile as a Fullstack Developer and Software Engineer, focused on performance, maintainability, and business value.
+
+The website includes both Spanish and English versions, a personal presentation section, and a professional experience section with decoupled content management.
+
+## What You Can Find in This Project
+
+- Home page with value proposition and technical approach
+- About Me section with personal and professional background
+- Experience section with career path and stack by stage
+- ES/EN language switch
+- Modern, clean interface optimized for quick reading
+
+## Technologies
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- react-icons
+
+## Contact
+
+- Email: vicvallejo2003@gmail.com
+- LinkedIn: 
+- GitHub: 
 
