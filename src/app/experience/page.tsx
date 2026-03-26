@@ -3,7 +3,7 @@
 import { useMemo, useState } from 'react';
 import { availableLanguages, portfolioDictionaries } from '../../i18n/portfolio';
 import { experienceDictionaries } from '../../i18n/experience';
-import { SiteHeader } from '../../components/SiteHeader';
+import { SiteHeader } from '../../components/header/SiteHeader';
 import { useCurrentLanguage } from '../../hooks/useCurrentLanguage';
 import '../page.css';
 import './experience.css';
