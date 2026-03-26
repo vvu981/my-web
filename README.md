@@ -24,7 +24,7 @@ La web incluye version en español e inglés, una sección de presentación pers
 
 - Email: contact@victor-vallejo.me
 - LinkedIn: https://www.linkedin.com/in/v%C3%ADctor-vallejo-uroz/
-- GitHub: https://github.com/ViictorVa
+- GitHub: https://github.com/vvu981
 
 ---
 
@@ -54,5 +54,5 @@ The website includes both Spanish and English versions, a personal presentation 
 
 - Email: contact@victor-vallejo.me
 - LinkedIn: https://www.linkedin.com/in/v%C3%ADctor-vallejo-uroz/
-- GitHub: https://github.com/ViictorVa
+- GitHub: https://github.com/vvu981
 
