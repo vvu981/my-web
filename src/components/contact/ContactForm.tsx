@@ -15,18 +15,6 @@ export function ContactForm({ copy }: Readonly<ContactFormProps>) {
       <div className="card contact-form-card">
         <span className="section-label">{copy.tag}</span>
 
-        {submitState === 'success' ? (
-          <output className="contact-status contact-status-success" aria-live="polite">
-            {copy.successMessage}
-          </output>
-        ) : null}
-
-        {submitState === 'error' && !hasErrors ? (
-          <p className="contact-status contact-status-error" role="alert">
-            {copy.errorMessage}
-          </p>
-        ) : null}
-
         <form className="contact-form-grid" onSubmit={handleSubmit} noValidate>
           <div className="contact-field">
             <label htmlFor="fullName" className="contact-label">
@@ -115,6 +103,18 @@ export function ContactForm({ copy }: Readonly<ContactFormProps>) {
             >
               {isSubmitting ? copy.loadingLabel : copy.submitLabel}
             </button>
+
+            {submitState === 'success' ? (
+              <output className="contact-status contact-status-success" aria-live="polite">
+                {copy.successMessage}
+              </output>
+            ) : null}
+
+            {submitState === 'error' && !hasErrors ? (
+              <p className="contact-status contact-status-error" role="alert">
+                {copy.errorMessage}
+              </p>
+            ) : null}
           </div>
         </form>
       </div>
