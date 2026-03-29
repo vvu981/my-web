@@ -183,7 +183,7 @@ const enOverrides: PortfolioOverrides = {
     {
       tag: 'Performance',
       title: 'Performance and optimization',
-      desc: 'Speed is a business metric. I design architectures that prioritize delivery speed and resource efficiency, optimizing every layer—from SSR to caching—to guarantee excellent Core Web Vitals and superior user retention.',
+      desc: 'Speed is a business metric. I design architectures that prioritize delivery speed and resource efficiency, optimizing every layer to guarantee excellent Core Web Vitals and superior user retention.',
     },
     {
       tag: 'Clean Architecture',
