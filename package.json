@@ -10,6 +10,8 @@
     "sync:readme-links": "node scripts/sync-readme-links.mjs"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "lucide-react": "^1.6.0",
     "marked": "^17.0.5",
     "next": "16.2.1",
@@ -24,10 +26,10 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/sanitize-html": "^2.16.0",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
-    "@types/sanitize-html": "^2.16.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

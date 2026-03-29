@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import type { PortfolioDictionary } from '../../i18n/portfolio';
 import { ArchDiagram } from './ArchDiagram';
@@ -50,9 +51,9 @@ export function HeroSection({ hero, diagram, links, onContactClick }: Readonly<H
           </p>
 
           <div className="fadeUp d4" style={{ display: 'flex', gap: 14, flexWrap: 'wrap', alignItems: 'center' }}>
-            <a href={links.contact} className="btn-primary" onClick={onContactClick}>
+            <Link href={links.contact} className="btn-primary">
               {hero.cta}
-            </a>
+            </Link>
             <a href={links.github} className="btn-ghost">
               <FaGithub size={17} /> {hero.github}
             </a>
