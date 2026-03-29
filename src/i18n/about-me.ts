@@ -12,7 +12,7 @@ export type AboutMeDictionary = {
 export const aboutMeDictionaries: Record<Language, AboutMeDictionary> = {
 	es: {
 		page: {
-			title: 'Sobre mi',
+			title: 'Sobre mí',
 			subtitle:
 				'Trayectoria, formación y los pilares que definen mi perfil profesional.',
 		},
