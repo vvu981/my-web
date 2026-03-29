@@ -66,7 +66,7 @@ type PortfolioOverrides = Omit<Partial<PortfolioDictionary>, 'hero' | 'valueProp
 const shared: Partial<PortfolioDictionary> & { social: { github: string; linkedin: string } } = {
   brandName: 'Victor Vallejo',
   contact: { email: 'contact@victor-vallejo.me' },
-  techStack: ['Next.js', 'React', 'Node.js', 'PostgreSQL', 'Docker', 'C#', 'REST APIs', 'Prisma', 'Java'],
+  techStack: ['Next.js', 'React', 'Node.js', 'PostgreSQL', 'Docker', 'C#', 'REST APIs', 'Prisma', 'Java', 'Git', 'GitHub'],
   // Mantenemos tus strings originales
   social: { github: 'GitHub', linkedin: 'LinkedIn' },
   // shared icon order for valueProps (icons are language-agnostic)
