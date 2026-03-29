@@ -158,7 +158,7 @@ const enOverrides: PortfolioOverrides = {
       { text: ' systems.' },
     ],
     description:
-      'I do not only build features: I design the layers that let products grow without technical debt. Specialized in Next.js, Node.js, scalable APIs and business-oriented architectures.',
+      'I do not only build features: I design the layers that let products grow without technical debt. Specialized in Java, Next.js, Node.js, scalable APIs and business-oriented architectures.',
     cta: 'Lets work together!',
     github: '',
     linkedin: '',
