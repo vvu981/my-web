@@ -20,7 +20,7 @@ export default function AboutMePageClient({ parsedSectionsByLanguage }: Readonly
   const sections  = parsedSectionsByLanguage[language] ?? [];
 
   return (
-    <div className="dot-bg about-page" style={{ minHeight: '100vh', color: 'var(--text)', fontFamily: "'DM Sans', sans-serif" }}>
+    <div className="dot-bg about-page" style={{ minHeight: '100vh', color: 'var(--text)', fontFamily: 'var(--font-body)' }}>
 
 
       <SiteHeader
