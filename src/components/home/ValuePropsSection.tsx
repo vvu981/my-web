@@ -1,17 +1,15 @@
-import type { PortfolioDictionary } from '../../i18n/portfolio';
-import Lightning from '../icons/Lightning';
-import Hex from '../icons/Hex';
-import Diamond from '../icons/Diamond';
+import type { ReactNode } from 'react';
+
+export type ValuePropItem = {
+  tag: string;
+  title: string;
+  desc: string;
+  iconNode: ReactNode;
+};
 
 type ValuePropsSectionProps = {
   title: string;
-  valueProps: PortfolioDictionary['valueProps'];
-};
-
-const iconByKey = {
-  lightning: <Lightning />,
-  hex: <Hex />,
-  diamond: <Diamond />,
+  valueProps: ValuePropItem[];
 };
 
 export function ValuePropsSection({ title, valueProps }: Readonly<ValuePropsSectionProps>) {
@@ -37,7 +35,7 @@ export function ValuePropsSection({ title, valueProps }: Readonly<ValuePropsSect
                     color: 'var(--accent)',
                   }}
                 >
-                  {iconByKey[item.icon]}
+                  {item.iconNode}
                 </div>
                 <span className="tag">{item.tag}</span>
               </div>

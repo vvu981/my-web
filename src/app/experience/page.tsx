@@ -26,7 +26,7 @@ export default function ExperiencePage() {
   }, [exp.items, sortOrder]);
 
   return (
-    <div className="dot-bg experience-page" style={{ minHeight: '100vh', fontFamily: "'DM Sans', sans-serif", color: 'var(--text)' }}>
+    <div className="dot-bg experience-page" style={{ minHeight: '100vh', fontFamily: 'var(--font-body)', color: 'var(--text)' }}>
       <SiteHeader
         copy={t}
         language={language}
