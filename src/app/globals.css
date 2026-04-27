@@ -13,8 +13,8 @@
   --border:  rgba(255,255,255,0.055);
   --accent:  #3fffd2;
   --violet:  #8b7cff;
-  --text:    #dde4f0;
-  --muted:   #4e5a72;
+  --text:    #e6edf7;
+  --muted:   #c0c0c0;
 
   /* Tokens consumidos por utilidades/estilos globales */
   --color-background: var(--background);
