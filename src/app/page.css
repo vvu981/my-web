@@ -3,13 +3,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:      #070711;
-  --surface: #0d0d1c;
-  --border:  rgba(255,255,255,0.055);
-  --accent:  #3fffd2;
-  --violet:  #8b7cff;
-  --text:    #e6edf7;
-  --muted:   #6e7a92;
+
   --font-heading: 'Syne', sans-serif;
   --font-body: 'Plus Jakarta Sans', sans-serif;
   --font-mono: 'DM Mono', monospace;
